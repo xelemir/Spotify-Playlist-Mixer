@@ -105,7 +105,8 @@ def loop():
         sp.playlist_remove_all_occurrences_of_items(playlist_id, get_songs_in_playlist(playlist_id), snapshot_id=None)
         sp.playlist_change_details(playlist_id, name=None, public=True, collaborative=None, description=desc)
         add_songs(Repeat_Rewind_id,playlist_id)
-        print("Playlist was cleared.")
+        sp.playlist_upload_cover_image(playlist_id, playlist_cover)
+        print("Playlist was cleared and refilled.")
     else:
         if datetime.today().strftime('%H:%M') == "20:00" or datetime.today().strftime('%H:%M') == "20:01":
             sp.playlist_upload_cover_image(playlist_id, playlist_cover)
