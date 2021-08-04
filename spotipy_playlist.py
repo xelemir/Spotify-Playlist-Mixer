@@ -73,7 +73,7 @@ def add_songs(Repeat_Rewind_id,playlist_id):
         print("Songs added.")
 
 def loop():
-    Repeat_Rewind_id ="37i9dQZF1EpCIUOyPHFK4V"
+    Repeat_Rewind_id ="YOUR_REPEAT_REWIND_PLAYLIST_ID"
     user = sp.current_user()
     user_name = user["display_name"]
     user_id = user["id"]
@@ -86,11 +86,9 @@ def loop():
         activity_status = str(user_name + " is currently listening to " + song + " by " + artist)
     except:
         activity_status = str(user_name +" is offline")
-
+        
     current_date_time = datetime.today().strftime('%m/%d/%Y at %H:%M.')
     desc = str(activity_status + ". This playlist was auto-generated. Last updated on " + current_date_time)
-
-    #list_of_playlists = sp.current_user_playlists(limit=50, offset=0)
 
     try:
         playlist_id = get_playlist_id()
