@@ -8,6 +8,6 @@ Auto-generates a Spotify playlist based on various factors using Python.
 - The user's listening status will be the playlist's description. This will refresh every minute.
 
 # Credits
-Enabled by "spotipy" using the official Spotify Web API.<br>
+Enabled by the Python library "Spotipy" using the official Spotify Web API.<br>
 https://spotipy.readthedocs.io/<br>
 https://developer.spotify.com/
