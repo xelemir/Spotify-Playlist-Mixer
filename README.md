@@ -1,5 +1,5 @@
 # Spotipy Playlist Mixer
-Auto-generates a Spotify playlist based on various factors.
+Auto-generates a Spotify playlist based on various factors using Python.
 
 # Features:
 - A playlist is automatically added to the user's Spotify library.
