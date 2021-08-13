@@ -9,7 +9,7 @@ Auto-generates a Spotify playlist based on various factors using Python.
   -  User's "Repeat Rewind" playlist
   -  "RapCaviar" playlist
   -  "Today's Top Hits" playlist
-  -  "Mega Hit Mix"
+  -  "Mega Hit Mix" playlist
 - The playlist will refresh everyday at 20:00 (8pm) CET or whenever the user changes the playlist's description to "clear".
 - The user's listening activity will be shared in the playlist's description. This will refresh every minute.
 - Specific tracks and artists can be blocked in the "blocked_entities.py" file.
