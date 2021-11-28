@@ -23,6 +23,6 @@ playlist_src = {"Repeat_Rewind": "37i9dQZF1EpCIUOyPHFK4V",
                 "Mega_Hit_Mix": "37i9dQZF1DXbYM3nMM0oPk",
                 "Pop_Sauce": "37i9dQZF1DXaPCIWxzZwR1"}
 
-CLIENT_ID = "81ab159f3e4a4ef8a2247e7d01ac6a5b"
-CLIENT_SECRET = "8ea4f3f8c6ac4aa69889fde67caf2484"
-REDIRECT_URI = "https://jan.gruettefien.com/spotify-redirect.php"
+CLIENT_ID = "<your client id>"
+CLIENT_SECRET = "<your client secret>"
+REDIRECT_URI = "<your redirect uri>"
