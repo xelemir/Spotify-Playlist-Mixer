@@ -89,7 +89,6 @@ def listening_activity(user_name):
     try:
         track_id = sp.current_user_playing_track()["item"]["id"]
         device_name, device_type = devices()
-        if device_type == "Smartphone" and device_name == "Jan's Galaxy S20": device_type = "Samsung Smart Fridge™"
         track = sp.track(track_id, market=None)
         artists = []
         artists = [v["name"] for i, v in enumerate(track["artists"])]
