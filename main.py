@@ -65,8 +65,8 @@ def reorder_top_songs(songs_add):
 
 def add_songs(playlist_id):
     songs_add = get_top_songs() + get_liked_songs(30)
-    for k, v in list(playlist_src.items()):
-        songs_add += get_songs_from_playlist(v)
+    for i in playlist_src:
+        songs_add += get_songs_from_playlist(i)
     print("!Fetching songs.")
     songs_add = check_blocked_entity(songs_add)
     songs_add = reorder_top_songs(songs_add)
